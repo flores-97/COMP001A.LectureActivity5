@@ -78,3 +78,29 @@ div ul{
     border-color: #f39c12;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+a{
+    display: inline-block; /*makes link words to boxes*/
+    color: #3498db;
+    text-decoration: none;/*rmvs underline*/
+    padding: 5px 10px; /*spaces between links*/
+    border: 1px solid #3489db;/*colors the lines of the borders*/
+    transition: all 0.3s ease; /*adds transition*/
+}
+
+a:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+button {
+    padding: 5px 10px; /*spacing inside*/
+    border: none;/*rmvs border*/
+    background-color: #ecf0f1;
+    cursor: pointer;/*changes cursor image on button*/
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: red;/*when on button color changes*/
+}
