@@ -2,3 +2,52 @@
     color: #038C7F;
     background-color: #01403A;
 }
+
+body, h1, h2, p, ul, li, a {/*resets defualt styles*/
+    margin: 0;
+    padding: 0;/*rmvs default padding*/
+    font-family: Arial, Helvetica, sans-serif;/*sets default font*/
+}
+
+body{
+    background-color: #012626;
+}
+
+h1 {
+    color: #038C7F;/*text color*/
+    font-size: 2em;/*2x default size*/
+    margin-bottom: 1em; /*add space below heading*/
+}
+
+h2 {
+    font-size: 1.5em;/*1.5 default size*/
+    color: #027368;/*text color*/
+}
+
+/*styling p*/
+p{
+    font-size: 16px;/*default size*/
+    color: #7f8c8d;
+    margin-bottom: 12px;/*adding space below p*/
+}
+
+p a{ /*styling link inside p*/
+    color: #f39c12;
+    text-decoration: none; /*rmvs underline*/
+}
+
+ul{ /*styles unordered list*/
+    list-style-type: none; /*rmvs bullet points*/
+    margin-left: 20px; /*indents list*/
+    margin-bottom: 12px; /*adds space below list*/
+}
+
+ul li{
+    margin-bottom: 5px;/*space between list items*/
+    color: #7f8c8d;
+}
+
+/*styling unordered list in div*/
+div ul{
+    list-style-type: square; /*adds bullet points but square*/
+}
